@@ -1,0 +1,28 @@
+{
+  "name": "meetscribe-ai",
+  "version": "1.0.0",
+  "description": "Autonomous Google Meet note-taking and summarization bot.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "google-meet",
+    "bot",
+    "puppeteer",
+    "transcription",
+    "notes",
+    "gemini",
+    "ai"
+  ],
+  "author": "Pkkarthik12",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "puppeteer": "^21.5.0",
+    "ws": "^8.14.2"
+  }
+}
